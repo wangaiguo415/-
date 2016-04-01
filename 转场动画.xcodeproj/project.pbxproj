@@ -15,6 +15,13 @@
 		1E4FFB071CA538FF005B97CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB051CA538FF005B97CC /* LaunchScreen.storyboard */; };
 		1E4FFB121CA538FF005B97CC /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FFB111CA538FF005B97CC /* ____Tests.m */; };
 		1E4FFB1D1CA538FF005B97CC /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E4FFB1C1CA538FF005B97CC /* ____UITests.m */; };
+		1E4FFB2B1CA53C7F005B97CC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB2A1CA53C7F005B97CC /* 1.jpg */; };
+		1E4FFB2D1CA53C84005B97CC /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB2C1CA53C84005B97CC /* 2.jpg */; };
+		1E4FFB301CA53C8B005B97CC /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB2E1CA53C8B005B97CC /* 3.jpg */; };
+		1E4FFB311CA53C8B005B97CC /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB2F1CA53C8B005B97CC /* 4.jpg */; };
+		1E4FFB331CA53CEB005B97CC /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1E4FFB321CA53CEB005B97CC /* 0.jpg */; };
+		1E91E4171CA917B600012CAA /* WAGScrollViewAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E91E4161CA917B600012CAA /* WAGScrollViewAnimation.m */; };
+		1E91E41A1CA9388100012CAA /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E91E4191CA9388100012CAA /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		1E4FFB181CA538FF005B97CC /* 转场动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "转场动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E4FFB1C1CA538FF005B97CC /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		1E4FFB1E1CA538FF005B97CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E4FFB2A1CA53C7F005B97CC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		1E4FFB2C1CA53C84005B97CC /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		1E4FFB2E1CA53C8B005B97CC /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		1E4FFB2F1CA53C8B005B97CC /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		1E4FFB321CA53CEB005B97CC /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		1E91E4151CA917B600012CAA /* WAGScrollViewAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAGScrollViewAnimation.h; sourceTree = "<group>"; };
+		1E91E4161CA917B600012CAA /* WAGScrollViewAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAGScrollViewAnimation.m; sourceTree = "<group>"; };
+		1E91E4181CA9388100012CAA /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1E91E4191CA9388100012CAA /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +117,11 @@
 		1E4FFAF61CA538FF005B97CC /* 转场动画 */ = {
 			isa = PBXGroup;
 			children = (
+				1E4FFB321CA53CEB005B97CC /* 0.jpg */,
+				1E4FFB2E1CA53C8B005B97CC /* 3.jpg */,
+				1E4FFB2F1CA53C8B005B97CC /* 4.jpg */,
+				1E4FFB2C1CA53C84005B97CC /* 2.jpg */,
+				1E4FFB2A1CA53C7F005B97CC /* 1.jpg */,
 				1E4FFAFA1CA538FF005B97CC /* AppDelegate.h */,
 				1E4FFAFB1CA538FF005B97CC /* AppDelegate.m */,
 				1E4FFAFD1CA538FF005B97CC /* ViewController.h */,
@@ -110,6 +131,10 @@
 				1E4FFB051CA538FF005B97CC /* LaunchScreen.storyboard */,
 				1E4FFB081CA538FF005B97CC /* Info.plist */,
 				1E4FFAF71CA538FF005B97CC /* Supporting Files */,
+				1E91E4151CA917B600012CAA /* WAGScrollViewAnimation.h */,
+				1E91E4161CA917B600012CAA /* WAGScrollViewAnimation.m */,
+				1E91E4181CA9388100012CAA /* TestViewController.h */,
+				1E91E4191CA9388100012CAA /* TestViewController.m */,
 			);
 			path = "转场动画";
 			sourceTree = "<group>";
@@ -243,8 +268,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E4FFB301CA53C8B005B97CC /* 3.jpg in Resources */,
 				1E4FFB071CA538FF005B97CC /* LaunchScreen.storyboard in Resources */,
+				1E4FFB331CA53CEB005B97CC /* 0.jpg in Resources */,
+				1E4FFB2B1CA53C7F005B97CC /* 1.jpg in Resources */,
+				1E4FFB2D1CA53C84005B97CC /* 2.jpg in Resources */,
 				1E4FFB041CA538FF005B97CC /* Assets.xcassets in Resources */,
+				1E4FFB311CA53C8B005B97CC /* 4.jpg in Resources */,
 				1E4FFB021CA538FF005B97CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E91E4171CA917B600012CAA /* WAGScrollViewAnimation.m in Sources */,
 				1E4FFAFF1CA538FF005B97CC /* ViewController.m in Sources */,
 				1E4FFAFC1CA538FF005B97CC /* AppDelegate.m in Sources */,
 				1E4FFAF91CA538FF005B97CC /* main.m in Sources */,
+				1E91E41A1CA9388100012CAA /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +530,7 @@
 				1E4FFB231CA538FF005B97CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4FFB241CA538FF005B97CC /* Build configuration list for PBXNativeTarget "转场动画Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +539,7 @@
 				1E4FFB261CA538FF005B97CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E4FFB271CA538FF005B97CC /* Build configuration list for PBXNativeTarget "转场动画UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +548,7 @@
 				1E4FFB291CA538FF005B97CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
